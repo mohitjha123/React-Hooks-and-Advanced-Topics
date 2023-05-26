@@ -18,7 +18,6 @@ const FetchData = () => {
     fetchData();
   }, []);
   return (
-    //i am maping the users to user
     <section>
       <h3>github users</h3>
       <ul className="users">

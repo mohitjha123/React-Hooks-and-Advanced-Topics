@@ -13,13 +13,11 @@ const CleanupFunction = () => {
 };
 const RandomComponent = () => {
   useEffect(() => {
-    // console.log('hmm, this is interesting');
-    const intID = setInterval(() => {
-      console.log("Bacground Runing");
-    }, 1000);
-    // does not stop, keeps going
-    // every time we render component new interval gets created
-    return () => clearInterval(intID);
+    const someFunc = () => {
+      // some func
+    };
+    window.addEventListener("scroll", someFunc);
+    return () => window.removeEventListener("scroll", someFunc);
   }, []);
 
   return <h1>hello there</h1>;
