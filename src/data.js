@@ -14,7 +14,7 @@ export const people = [
     images: [
       {
         small: {
-          url: "https://res.cloudinary.com/diqqf3eq2/image/upload/ar_1:1,bo_5px_solid_rgb:ff0000,c_fill,g_auto,r_max,w_1000/v1595959121/person-1_aufeoq.jpg",
+          url: "https://www.nifm.in/images/profile-pic.png",
         },
       },
     ],

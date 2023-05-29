@@ -7,7 +7,7 @@ const changingbtn = () => {
   return (
     <div>
       <button className="btn" onClick={() => setName(!name)}>
-        {name ? "Bharath" : "Mohit"}
+        {name ? "Rohit" : "Mohit"}
       </button>
     </div>
   );
