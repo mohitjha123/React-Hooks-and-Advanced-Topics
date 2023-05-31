@@ -5,14 +5,13 @@ const MultipleInputs = () => {
     email: "",
     password: "",
   });
-  /*  const muser = useRef(""); */
+  const muser = useRef("");
 
   const handleChange = (e) => {
     console.log(e.target.name);
     setUser({ ...user, [e.target.name]: e.target.value });
     /* setUser(""); */
-    /* muser.current.value = ""; */
-    /* e.currentTarget.reset(); */
+    muser.current.value = "";
   };
 
   const handleSubmit = () => {};
@@ -27,7 +26,7 @@ const MultipleInputs = () => {
           </label>
           <input
             type="text"
-            //ref={muser}
+            ref={muser}
             className="form-input"
             id="name"
             name="name"
