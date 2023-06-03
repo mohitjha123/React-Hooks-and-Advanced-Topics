@@ -1,5 +1,5 @@
-import Item from './Person';
-import { memo } from 'react';
+import Item from "./Person";
+import { memo } from "react";
 const List = ({ people, removePerson }) => {
   return (
     <div>

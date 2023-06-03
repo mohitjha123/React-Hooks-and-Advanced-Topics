@@ -1,7 +1,6 @@
 *,
 ::after,
 ::before {
-  box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
@@ -323,6 +322,8 @@ ul {
 
 .navbar {
   padding: 1rem;
+  position: sticky;
+  top: 0;
   display: grid;
   grid-template-columns: auto 1fr;
   column-gap: 2rem;
